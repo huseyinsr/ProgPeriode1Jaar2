@@ -4,6 +4,7 @@ Les 1 Opdracht 1
 
 ![a8ecxd](https://github.com/user-attachments/assets/3b535b6d-5a6b-4ad8-b6d7-ec0679b1aaea)
 
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Pickup.cs
 
 Les 1 Opdracht 2
 
