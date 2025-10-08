@@ -10,6 +10,8 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/CreateBal
 
 De script maakt random kleuren voor ballen. De ballen spawnen met verschillende kleuren(100 ballen in het begin). Ze verdwijnen na 3 seconden.
 
+Ik heb met deze opdracht functions, classes en arrays herhaald.
+
 Les 1 Opdracht 2
 
 ![a8ed5y](https://github.com/user-attachments/assets/6bfe2d7a-ee0d-47b7-8d38-36569e400222)
@@ -24,6 +26,8 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/TowerSpaw
 
 Je maakt niuwe toren elke keer als je in het scherm klikt.
 
+Ik heb met deze opdracht functions, classes en arrays herhaald.
+
 les 1 Opdracht 3
 
 ![a8eder](https://github.com/user-attachments/assets/35a132cf-e4c9-4551-a736-897de35996f0)
@@ -35,6 +39,10 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/EnemySpaw
 Enemy.cs
 
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Enemy.cs
+
+Er spawnen 3 enemy elke seconden. Als je op W toets drukt spawnen er 100 enemy en als je op Q toets drukt verwijder je de alle enemies.
+
+Ik heb met deze opdracht functions, classes en arrays herhaald.
 
 Les 2
 
@@ -51,6 +59,10 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Scoreboar
 MovementScript.cs
 
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/MovementScript.cs
+
+Er is een player die je kan controleren. Als je aan een coin raakt dan jouw score wordt hooger.
+
+Ik heb met deze opdracht action events geleerd.
 
 Les 3
 
