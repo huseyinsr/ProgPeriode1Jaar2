@@ -52,35 +52,11 @@ Les 3
 
 Wat veroorzaakt de bugs?
 
-ll,l
+
 
 
 Vastleggen van Mythe bugs
 
-Bug 1
 
-WallJumping werkt niet zo goed
-
-wat er eigenlijk zou moeten gebeuren.'
-
-Player zou tussen andere muuren springen.
-
-wat er verkeerd gaat. Maak gebruik van screenshots.
-
-Er is twee verschillende layers voor Grond en Muuren. WallJumping aleen werkt met Wall Layer. Dus kan je niet springen van rechter of linker kant van een grond.
-
-<img width="1039" height="449" alt="Screenshot 2025-10-08 152633" src="https://github.com/user-attachments/assets/e0753e8e-1342-4d35-8806-b76553bb120e" />
-
-<img width="1032" height="407" alt="Screenshot 2025-10-08 152621" src="https://github.com/user-attachments/assets/a2406fe6-125d-427f-a14e-abf18289b906" />
-
-wat je denkt dat de oorzaak kan zijn.
-
-Layers 
-
-evt hoe je denkt dat dit opgelost kan worden.
-
-Ik denk er moe
-
-welke vervolg acties nodig zijn.
 
 
