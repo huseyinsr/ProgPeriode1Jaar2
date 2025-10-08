@@ -22,6 +22,8 @@ TowerSpawner.cs
 
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/TowerSpawner.cs
 
+Je maakt niuwe toren elke keer als je in het scherm klikt.
+
 les 1 Opdracht 3
 
 ![a8eder](https://github.com/user-attachments/assets/35a132cf-e4c9-4551-a736-897de35996f0)
