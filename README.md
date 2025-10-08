@@ -68,8 +68,9 @@ Les 3
 
 Wat veroorzaakt de bugs?
 
+1. De enemy herkent de speler niet door verkeerde target tags.
 
-
+2. De kogels hebben geen collision detection.
 
 Vastleggen van Mythe bugs
 
