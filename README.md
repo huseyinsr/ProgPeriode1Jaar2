@@ -8,6 +8,8 @@ CreateBall.cs
 
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/CreateBall.cs
 
+De script maakt random kleuren voor ballen.
+
 Les 1 Opdracht 2
 
 ![a8ed5y](https://github.com/user-attachments/assets/6bfe2d7a-ee0d-47b7-8d38-36569e400222)
