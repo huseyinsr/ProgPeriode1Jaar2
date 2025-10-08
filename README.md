@@ -8,7 +8,7 @@ CreateBall.cs
 
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/CreateBall.cs
 
-De script maakt random kleuren voor ballen.
+De script maakt random kleuren voor ballen. De ballen spawnen met verschillende kleuren(100 ballen in het begin). Ze verdwijnen na 3 seconden.
 
 Les 1 Opdracht 2
 
