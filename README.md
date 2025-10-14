@@ -77,6 +77,25 @@ Vastleggen van Mythe bugs
 
 les 4
 
+![a925l4](https://github.com/user-attachments/assets/a479e1d3-9be6-4b8a-b636-7a3ee7d43c47)
+
+ItemSystem.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/ItemSystem.cs
+
+Movement.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Movement.cs
+
+Shooting.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Shooting.cs
+
+UIManager.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/UIManager.cs
+
+Ik heb de Script van Space48 duidelijker gemaakkt met SRP en DRY methode. 
 
 
 
