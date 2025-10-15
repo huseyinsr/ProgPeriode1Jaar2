@@ -98,4 +98,10 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/UIManager
 Ik heb de Script van Space48 duidelijker gemaakkt met SRP en DRY methode. 
 
 
+les 5
+
+![a95uom](https://github.com/user-attachments/assets/a37aca89-9dcb-47ff-bb39-97ae561aefda)
+
+
+
 
