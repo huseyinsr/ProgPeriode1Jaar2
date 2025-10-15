@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -25,4 +25,4 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSeconds(displayTime);
         messageField.enabled = false;
     }
-}
+}*/

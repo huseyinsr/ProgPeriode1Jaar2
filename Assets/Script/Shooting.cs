@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
@@ -30,4 +30,4 @@ public class Shooting : MonoBehaviour
     {
         cooldownTime -= improvement;
     }
-}
+}*/

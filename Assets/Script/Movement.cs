@@ -1,12 +1,12 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 25f;
-    public bool usePlayerInput = true;
+    private bool usePlayerInput = true;
 
-    void Update()
+    private void Update()
     {
         Move();
         if (usePlayerInput)
@@ -15,14 +15,14 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void Move()
+    private void Move()
     {
         float moveInput = usePlayerInput ? Input.GetAxis("Vertical") : 1f;
         transform.position = transform.position + transform.forward * moveSpeed * moveInput * Time.deltaTime;
     }
 
-    void Rotate()
+    private void Rotate()
     {
         transform.Rotate(transform.up * rotationSpeed * Time.deltaTime * Input.GetAxis("Horizontal"));
     }
-}
+}*/

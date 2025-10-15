@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using TMPro;
 using System;
 public class Scoreboard : MonoBehaviour
@@ -30,4 +30,4 @@ public class Scoreboard : MonoBehaviour
      }
 
  }
-
+*/

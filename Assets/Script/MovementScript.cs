@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class MovementScript : MonoBehaviour
 {
@@ -15,4 +15,4 @@ public class MovementScript : MonoBehaviour
         movement = movement.normalized * movementSpeed * Time.deltaTime;
         transform.Translate(movement);
     }
-}
+}*/
