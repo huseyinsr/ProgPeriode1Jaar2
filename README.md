@@ -102,6 +102,28 @@ les 5
 
 ![a95uom](https://github.com/user-attachments/assets/a37aca89-9dcb-47ff-bb39-97ae561aefda)
 
+EnemyLes5.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/EnemyLes5.cs
+
+HealthLes5.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/HealthLes5.cs
+
+ShootFromCamera.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/ShootFromCamera.cs
+
+Brute.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Brute.cs
+
+Elf.cs
+
+https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Elf.cs
+
+Ik heb een Enemy script gemaakt. Onder de Enemy script ik heb 2 andere script(Elf en Brute) gemaakt als child.
+
 
 
 
