@@ -127,7 +127,6 @@ Ik heb een Enemy script gemaakt. Onder de Enemy script ik heb 2 andere script(El
 les 6
 
 class Tile:
-
 bool hasShooter - read and write 
 
 
