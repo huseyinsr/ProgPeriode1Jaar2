@@ -124,6 +124,54 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Elf.cs
 
 Ik heb een Enemy script gemaakt. Onder de Enemy script ik heb 2 andere script(Elf en Brute) gemaakt als child.
 
+les 6
+
+class Tile:
+
+bool hasShooter - read and write 
+
+
+class Enemy:
+
+System.Action OnEnemyDeath - write only 
+
+void TakeDamage(int amount) - write only
+
+
+class Health:
+
+int maxHealth - read only 
+
+int currentHealth - read only 
+
+UnityEvent onDamaged - write only 
+
+UnityEvent onDeath - write only 
+
+void TakeDamage(int amount) - write only 
+
+
+class ToothpasteShooter:
+
+void OnDetectionEnter(Enemy enemy) - write only 
+
+void OnDetectionExit(Enemy enemy) - write only 
+
+
+class GameManager:
+
+int suns - read and write
+
+GameObject currentShooter - read and write 
+
+static GameManager Instance - read only 
+
+void BuyShooter(GameObject shooterPrefab, Sprite sprite) - write only 
+
+
+Ik heb 15 class in totaal maar ze zijn helemaal private.
+
+
 
 
 
