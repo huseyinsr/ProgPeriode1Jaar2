@@ -86,6 +86,10 @@ In het begin er is een shooter. Die shooter wordt verwijdert door een vijand en 
 
 Wat kan de oorazaak zijn: Elke tile kan detecten als er een shooter is of niet. Als er een shooter is dan kan je daar niet een andere shooter zetten(dat is goed) maar blijft het altijd zo(ook als er is geen shooter meer). 
 
+<img width="361" height="196" alt="Screenshot 2025-11-05 154555" src="https://github.com/user-attachments/assets/92d2c988-18bc-48a1-bd0f-66262b63e5f0" />
+
+Ik moet een betere script schrijven voor detecteren. Het moet altijd blijven deteceteren er is een toren of niet.
+
 les 4
 
 ![a925l4](https://github.com/user-attachments/assets/a479e1d3-9be6-4b8a-b636-7a3ee7d43c47)
