@@ -72,8 +72,19 @@ Wat veroorzaakt de bugs?
 
 2. De kogels hebben geen collision detection.
 
-Vastleggen van Mythe bugs
+Tower Defense bugs
 
+1. Als een toren wordt verwijdert door vijanden kan je daar niet een adere toren bouwen.
+
+<img width="249" height="237" alt="Screenshot 2025-11-05 151122" src="https://github.com/user-attachments/assets/6ef399f0-94a5-4a59-826a-29fdbdcc8709" />
+
+<img width="274" height="232" alt="Screenshot 2025-11-05 151210" src="https://github.com/user-attachments/assets/bae4c502-ef93-499e-b091-dd8b69b0b368" />
+
+In het begin er is een shooter. Die shooter wordt verwijdert door een vijand en kan ik niet meer daar een shooter bouwen(je kan die halfe transparante visual effect zien maar niet iets bouwen). 
+
+<img width="396" height="66" alt="Screenshot 2025-11-05 153103" src="https://github.com/user-attachments/assets/858e159c-0c24-482a-8151-fa999f29e402" />
+
+Wat kan de oorazaak zijn: Elke tile kan detecten als er een shooter is of niet. Als er een shooter is dan kan je daar niet een andere shooter zetten(dat is goed) maar blijft het altijd zo(ook als er is geen shooter meer). 
 
 les 4
 
