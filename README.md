@@ -74,6 +74,8 @@ Wat veroorzaakt de bugs?
    
 Mythe bugsMythe bugsMythe bugs
 
+----------------------------------------------------------
+
 1. Wall Jump werkt niet goed
 
 wat er eigenlijk zou moeten gebeuren.
@@ -82,7 +84,10 @@ Speler moet van de muur kunnen springen maar soms springt speler niet.
 
 wat er verkeerd gaat.
 
-Cooldown werkt niet goed. 
+<img width="833" height="290" alt="Screenshot 2025-11-06 221901" src="https://github.com/user-attachments/assets/688a29db-f990-4f93-8a8c-e1c79e4d460d" />
+<img width="433" height="146" alt="Screenshot 2025-11-06 221922" src="https://github.com/user-attachments/assets/4ba5b909-5b24-4287-a49f-1e98ff0ad99e" />
+
+Als cooldown niet reset op ijd kan je niet van muuren springen. Dus werkt het niet altijd.
 
 wat je denkt dat de oorzaak kan zijn.
 
@@ -90,13 +95,15 @@ Cooldown reset te laat waardoor wall jump niet altijd werkt.
 
 evt hoe je denkt dat dit opgelost kan worden
 
-Cooldown en timer systeem aanpassen zodat het goed blijft werken.
+Cooldown en timer systeem aanpassen zodat het goed blijft werken of een niewe script schhrijven voor hele wallJump systeem.
 
 welke vervolg acties nodig zijn.
 
 Debug toevoegen en testen tijdens wall slide en wall jump.
 
-2. Camera volgt niet bij bat transformatie
+----------------------------------------------------------
+
+2. Camera volgt niet bij bat transformatie(het was een oude bug dus heb geen screenshots)
 
 wat er eigenlijk zou moeten gebeuren.
 
@@ -118,7 +125,9 @@ welke vervolg acties nodig zijn.
 
 Testen tijdens transformeren.
 
-3. Dash werkt niet na transformatie
+----------------------------------------------------------
+
+3. Dash werkt niet na transformatie(het was een oude bug dus heb geen screenshots)
 
 wat er eigenlijk zou moeten gebeuren.
 
@@ -126,19 +135,21 @@ Dash moet altijd goed werken ook na transformeren naar bat.
 
 wat er verkeerd gaat.
 
-Dash blijft uit als cooldown actief was tijdens transformatie.
+Als je transformeert terwijl de dash cooldown nog actief is, kan je daarna niet dashen.
 
 wat je denkt dat de oorzaak kan zijn.
 
-Cooldown staat in oud player object en verdwijnt bij bat.
+Cooldown staat alleen in het player object en verdwijnt bij bat. Bat krijgt de cooldown niet mee waardoor dash tijdelijk geblokkeerd is.
 
 evt hoe je denkt dat dit opgelost kan worden
 
 Cooldown verplaatsen naar parent zodat het behouden blijft ook bij bat.
 
+welke vervolg acties nodig zijn.
+
 Dash testen voor en na transform
 
-welke vervolg acties nodig zijn.
+----------------------------------------------------------
 
 Tower Defense bugs
 
