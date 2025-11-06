@@ -71,6 +71,74 @@ Wat veroorzaakt de bugs?
 1. De enemy herkent de speler niet door verkeerde target tags.
 
 2. De kogels hebben geen collision detection.
+   
+Mythe bugsMythe bugsMythe bugs
+
+1. Wall Jump werkt niet goed
+
+wat er eigenlijk zou moeten gebeuren.
+
+Speler moet van de muur kunnen springen maar soms springt speler niet.
+
+wat er verkeerd gaat.
+
+Cooldown werkt niet goed. 
+
+wat je denkt dat de oorzaak kan zijn.
+
+Cooldown reset te laat waardoor wall jump niet altijd werkt.
+
+evt hoe je denkt dat dit opgelost kan worden
+
+Cooldown en timer systeem aanpassen zodat het goed blijft werken.
+
+welke vervolg acties nodig zijn.
+
+Debug toevoegen en testen tijdens wall slide en wall jump.
+
+2. Camera volgt niet bij bat transformatie
+
+wat er eigenlijk zou moeten gebeuren.
+
+Cameravolg  moet altijd bat en player vvolgen.
+
+wat er verkeerd gaat.
+
+Camera stopt met volgen als je transformeert naar bat.
+
+wat je denkt dat de oorzaak kan zijn.
+
+Camera target verwijst naar oude player object.
+
+evt hoe je denkt dat dit opgelost kan worden
+
+Camera target updaten naar het nieuwe player object in SwitchCharacterScript.
+
+welke vervolg acties nodig zijn.
+
+Testen tijdens transformeren.
+
+3. Dash werkt niet na transformatie
+
+wat er eigenlijk zou moeten gebeuren.
+
+Dash moet altijd goed werken ook na transformeren naar bat.
+
+wat er verkeerd gaat.
+
+Dash blijft uit als cooldown actief was tijdens transformatie.
+
+wat je denkt dat de oorzaak kan zijn.
+
+Cooldown staat in oud player object en verdwijnt bij bat.
+
+evt hoe je denkt dat dit opgelost kan worden
+
+Cooldown verplaatsen naar parent zodat het behouden blijft ook bij bat.
+
+Dash testen voor en na transform
+
+welke vervolg acties nodig zijn.
 
 Tower Defense bugs
 
