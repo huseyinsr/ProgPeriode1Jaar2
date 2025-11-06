@@ -81,8 +81,14 @@ Wat veroorzaakt de bugs?
 2. De kogels hebben geen collision detection.
 
 ----------------------------------------------------------
+
+Breakpoints
+
+<img width="1498" height="1270" alt="Screenshot 2025-11-06 231633" src="https://github.com/user-attachments/assets/2ca3cc37-4211-4a94-8fc4-c294515e4b21" />
+
+----------------------------------------------------------
    
-Mythe bugsMythe bugsMythe bugs
+Mythe bugs
 
 Wall Jump werkt niet goed
 
