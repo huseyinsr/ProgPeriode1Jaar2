@@ -12,6 +12,8 @@ De script maakt random kleuren voor ballen. De ballen spawnen met verschillende 
 
 Ik heb met deze opdracht functions, classes en arrays herhaald.
 
+----------------------------------------------------------
+
 Les 1 Opdracht 2
 
 ![a8ed5y](https://github.com/user-attachments/assets/6bfe2d7a-ee0d-47b7-8d38-36569e400222)
@@ -28,6 +30,8 @@ Je maakt niuwe toren elke keer als je in het scherm klikt.
 
 Ik heb met deze opdracht functions, classes en arrays herhaald.
 
+----------------------------------------------------------
+
 les 1 Opdracht 3
 
 ![a8eder](https://github.com/user-attachments/assets/35a132cf-e4c9-4551-a736-897de35996f0)
@@ -43,6 +47,8 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Enemy.cs
 Er spawnen 3 enemy elke seconden. Als je op W toets drukt spawnen er 100 enemy en als je op Q toets drukt verwijder je de alle enemies.
 
 Ik heb met deze opdracht functions, classes en arrays herhaald.
+
+----------------------------------------------------------
 
 Les 2
 
@@ -64,6 +70,8 @@ Er is een player die je kan controleren. Als je aan een coin raakt dan jouw scor
 
 Ik heb met deze opdracht action events geleerd.
 
+----------------------------------------------------------
+
 Les 3
 
 Wat veroorzaakt de bugs?
@@ -71,12 +79,12 @@ Wat veroorzaakt de bugs?
 1. De enemy herkent de speler niet door verkeerde target tags.
 
 2. De kogels hebben geen collision detection.
+
+----------------------------------------------------------
    
 Mythe bugsMythe bugsMythe bugs
 
-----------------------------------------------------------
-
-1. Wall Jump werkt niet goed
+Wall Jump werkt niet goed
 
 wat er eigenlijk zou moeten gebeuren.
 
@@ -87,7 +95,7 @@ wat er verkeerd gaat.
 <img width="833" height="290" alt="Screenshot 2025-11-06 221901" src="https://github.com/user-attachments/assets/688a29db-f990-4f93-8a8c-e1c79e4d460d" />
 <img width="433" height="146" alt="Screenshot 2025-11-06 221922" src="https://github.com/user-attachments/assets/4ba5b909-5b24-4287-a49f-1e98ff0ad99e" />
 
-Als cooldown niet reset op ijd kan je niet van muuren springen. Dus werkt het niet altijd.
+Als cooldown niet reset op tijd kan je niet van muuren springen. Dus werkt het niet altijd.
 
 wat je denkt dat de oorzaak kan zijn.
 
@@ -103,7 +111,7 @@ Debug toevoegen en testen tijdens wall slide en wall jump.
 
 ----------------------------------------------------------
 
-2. Camera volgt niet bij bat transformatie(het was een oude bug dus heb geen screenshots)
+Camera volgt niet bij bat transformatie(het was een oude bug dus heb geen screenshots)
 
 wat er eigenlijk zou moeten gebeuren.
 
@@ -127,7 +135,7 @@ Testen tijdens transformeren.
 
 ----------------------------------------------------------
 
-3. Dash werkt niet na transformatie(het was een oude bug dus heb geen screenshots)
+Dash werkt niet na transformatie(het was een oude bug dus heb geen screenshots)
 
 wat er eigenlijk zou moeten gebeuren.
 
@@ -169,6 +177,8 @@ Wat kan de oorazaak zijn: Elke tile kan detecten als er een shooter is of niet. 
 
 Ik moet een betere script schrijven voor detecteren. Het moet altijd blijven deteceteren er is een toren of niet.
 
+----------------------------------------------------------
+
 les 4
 
 ![a925l4](https://github.com/user-attachments/assets/a479e1d3-9be6-4b8a-b636-7a3ee7d43c47)
@@ -191,6 +201,7 @@ https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/UIManager
 
 Ik heb de Script van Space48 duidelijker gemaakkt met SRP en DRY methode. 
 
+----------------------------------------------------------
 
 les 5
 
@@ -217,6 +228,8 @@ Elf.cs
 https://github.com/huseyinsr/ProgPeriode1Jaar2/blob/main/Assets/Script/Elf.cs
 
 Ik heb een Enemy script gemaakt. Onder de Enemy script ik heb 2 andere script(Elf en Brute) gemaakt als child.
+
+----------------------------------------------------------
 
 les 6
 
