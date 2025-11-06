@@ -107,7 +107,7 @@ Cooldown en timer systeem aanpassen zodat het goed blijft werken of een niewe sc
 
 welke vervolg acties nodig zijn.
 
-Debug toevoegen en testen tijdens wall slide en wall jump.
+Script verbeteren en debug toevoegen en testen tijdens wall slide en wall jump.
 
 ----------------------------------------------------------
 
@@ -123,15 +123,15 @@ Camera stopt met volgen als je transformeert naar bat.
 
 wat je denkt dat de oorzaak kan zijn.
 
-Camera target verwijst naar oude player object.
+Camera target verwijst aleen naar player object en dus niet naar bat.
 
 evt hoe je denkt dat dit opgelost kan worden
 
-Camera target updaten naar het nieuwe player object in SwitchCharacterScript.
+Camera target altijd updaten tijdens transformeren.
 
 welke vervolg acties nodig zijn.
 
-Testen tijdens transformeren.
+Script veerbeteren en testen tijdens transformeren.
 
 ----------------------------------------------------------
 
@@ -147,15 +147,15 @@ Als je transformeert terwijl de dash cooldown nog actief is, kan je daarna niet 
 
 wat je denkt dat de oorzaak kan zijn.
 
-Cooldown staat alleen in het player object en verdwijnt bij bat. Bat krijgt de cooldown niet mee waardoor dash tijdelijk geblokkeerd is.
+Cooldown staat alleen in het player object en verdwijnt bij bat. Bat krijgt de cooldown niet mee waardoor dash permanent geblokkeerd wordt.
 
 evt hoe je denkt dat dit opgelost kan worden
 
-Cooldown verplaatsen naar parent zodat het behouden blijft ook bij bat.
+Cooldown verplaatsen naar parent of manager zodat het werkt ook bij bat. Daardoor kan je nog steeds dashen na het bat vorm.
 
 welke vervolg acties nodig zijn.
 
-Dash testen voor en na transform
+Scribt verbeteren. Dash testen voor en na transform
 
 ----------------------------------------------------------
 
