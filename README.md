@@ -281,8 +281,25 @@ static GameManager Instance - read only
 
 void BuyShooter(GameObject shooterPrefab, Sprite sprite) - write only 
 
-
 Ik heb 15 class in totaal maar ze zijn helemaal private.
+
+----------------------------------------------------------
+
+Prog Jaar 2 Periode 2
+
+Les 3
+
+Oefening 1
+
+Powerup state van een tower in een towerdefense game. = Struct
+
+Enemy AI component voor het bepalen en uitvoeren van het gedrag. = Class
+
+XYZ-coördinaten in een 3d omgeving. = Struct(Vector 3)
+
+Management van actieve powerups = Class
+
+
 
 
 
