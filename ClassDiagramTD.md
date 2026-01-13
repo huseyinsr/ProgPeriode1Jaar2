@@ -1,28 +1,82 @@
-```mermaid
----
-Title: Class Diagram Tower Defense
----
 classDiagram
 
-class Enemy {
-    + int health
-    + float speed
-    + TakeDamage()
-}
+    class Enemy {
+        -Health health
+        +TakeDamage()
+    }
 
-class Tower {
-    + int damage
-    + float range
-    + Shoot()
-}
+    class Health {
+        -int currentHealth
+        +TakeDamage()
+    }
 
-class GameManager {
-    + int money
-    + StartGame()
-    + SpawnEnemy()
-}
+    class Teeth {
+        -Health health
+    }
 
-Tower ..> Enemy
-GameManager ..> Enemy
-GameManager ..> Tower
-```
+    class ToothpasteShooter {
+        -DetectionZone detectionZone
+        +OnDetectionEnter()
+        +OnDetectionExit()
+    }
+
+    class DetectionZone {
+        +OnTriggerEnter()
+    }
+
+    class ToothpasteProjectile {
+        -int damage
+        +OnCollisionEnter()
+    }
+
+    class WaveSpawner {
+        +SpawnEnemy()
+    }
+
+    class GameManager {
+        -int suns
+        +BuyShooter()
+    }
+
+    class ShooterSlot {
+        -GameManager gameManager
+    }
+
+    class Tile {
+        -bool hasShooter
+    }
+
+    class Sun {
+        -int value
+    }
+
+    class SunSpawner {
+        +SpawnSun()
+    }
+
+    class TutorialDialogue {
+        -string[] messages
+        +ShowNextMessage()
+    }
+
+    class Menu {
+        +Show()
+        +Hide()
+    }
+
+    class StartMenu {
+        +StartGame()
+        +QuitGame()
+    }
+
+    Enemy --* Health
+    Teeth --* Health
+    ToothpasteShooter --> DetectionZone
+    DetectionZone --> Enemy
+    ToothpasteShooter --> ToothpasteProjectile
+    ToothpasteProjectile --> Enemy
+    WaveSpawner --> Enemy
+    ShooterSlot --> GameManager
+    GameManager --> Tile
+    GameManager --> Sun
+    SunSpawner --> Sun

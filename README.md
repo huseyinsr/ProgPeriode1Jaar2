@@ -287,6 +287,17 @@ Ik heb 15 class in totaal maar ze zijn helemaal private.
 
 Prog Jaar 2 Periode 2
 
+Les 1
+
+Les 2
+
+Voor deze opdracht heb ik een UML class diagram gemaakt van mijn Tower Defense game.
+
+Het diagram is hier te vinden:
+
+[ClassDiagramTD.md](ClassDiagramTD.md)
+
+
 Les 3
 
 Oefening 1
