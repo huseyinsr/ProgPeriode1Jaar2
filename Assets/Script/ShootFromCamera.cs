@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class ShootFromCamera : MonoBehaviour
 {
@@ -47,4 +47,4 @@ public class MoveProj : MonoBehaviour
             Destroy(gameObject);
         }
     }
-}
+}*/

@@ -1,8 +1,8 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Elf : EnemyLes5
 {
-    Renderer renderer;
+    private Renderer renderer;
     public float timer = 0f;
     private bool isHidden = false;
 
@@ -31,4 +31,5 @@ public class Elf : EnemyLes5
         }
     }
 }
+*/
 

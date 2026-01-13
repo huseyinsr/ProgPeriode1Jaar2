@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Brute : EnemyLes5
 {
@@ -9,3 +9,4 @@ public class Brute : EnemyLes5
 
 
 }
+*/

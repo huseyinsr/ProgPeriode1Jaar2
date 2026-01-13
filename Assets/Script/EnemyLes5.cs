@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.Audio;
 
 public class EnemyLes5 : MonoBehaviour
@@ -27,4 +27,4 @@ public class EnemyLes5 : MonoBehaviour
     {
         myHealth.TakeDamage(amount);
     }
-}
+}*/
