@@ -291,9 +291,7 @@ Les 1
 
 Les 2
 
-Voor deze opdracht heb ik een UML class diagram gemaakt van mijn Tower Defense game.
-
-Het diagram is hier te vinden:
+Voor deze opdracht heb ik een class diagram gemaakt van mijn Tower Defense game met mermaid.
 
 [ClassDiagramTD.md](ClassDiagramTD.md)
 
