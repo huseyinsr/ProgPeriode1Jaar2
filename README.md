@@ -326,8 +326,6 @@ Opdracht 3
 
 ![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
 
-[Coin.cs](Assets/Script/Coin.cs)
-
 ----------------------------------------------------------
 
 
@@ -336,6 +334,10 @@ Les 4
 Opdracht 4
 
 ![ahhtof](https://github.com/user-attachments/assets/cdcc8969-1fcd-40f6-925c-b54e7fed3fbc)
+
+[CoinUI.cs](Assets/Script/CoinUI.cs)
+
+[Coin.cs](Assets/Script/Coin.cs)
 
 
 
