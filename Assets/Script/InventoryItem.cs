@@ -1,10 +1,24 @@
-/*public class InventoryItem
+public class InventoryItem
 {
-    public string name;
+    public string ItemName { get; private set; }
 
-    public InventoryItem(string name)
+    public InventoryItem(string itemName)
     {
-        this.name = name;
+        ItemName = itemName;
     }
 }
-*/
+
+public class GunItem : InventoryItem
+{
+    public GunItem() : base("Gun") { }
+}
+
+public class MedipackItem : InventoryItem
+{
+    public MedipackItem() : base("Medipack") { }
+}
+
+public class KeycardItem : InventoryItem
+{
+    public KeycardItem() : base("Keycard") { }
+}

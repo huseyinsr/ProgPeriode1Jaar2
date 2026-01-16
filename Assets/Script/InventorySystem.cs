@@ -1,43 +1,74 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InventorySystem : MonoBehaviour
 {
-    List<InventoryItem> inventory = new List<InventoryItem>();
+    private List<InventoryItem> _inventory = new List<InventoryItem>();
 
-    int guns = 2, meds = 4, keys = 1;
+    [SerializeField] private int _guns = 2;
+    [SerializeField] private int _medipacks = 4;
+    [SerializeField] private int _keycards = 1;
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G)) Toggle("Gun", ref guns);
-        if (Input.GetKeyDown(KeyCode.M)) Toggle("Medipack", ref meds);
-        if (Input.GetKeyDown(KeyCode.K)) Toggle("Keycard", ref keys);
+        if (Input.GetKeyDown(KeyCode.G)) ToggleGun();
+        if (Input.GetKeyDown(KeyCode.M)) ToggleMedipack();
+        if (Input.GetKeyDown(KeyCode.K)) ToggleKeycard();
     }
 
-    void Toggle(string name, ref int world)
+    public void ToggleGun()
     {
-        InventoryItem item = inventory.Find(i => i.name == name);
+        ToggleItem<GunItem>(ref _guns);
+    }
+
+    public void ToggleMedipack()
+    {
+        ToggleItem<MedipackItem>(ref _medipacks);
+    }
+
+    public void ToggleKeycard()
+    {
+        ToggleItem<KeycardItem>(ref _keycards);
+    }
+
+    private void ToggleItem<T>(ref int worldCount) where T : InventoryItem, new()
+    {
+        InventoryItem item = _inventory.Find(i => i is T);
 
         if (item != null)
         {
-            inventory.Remove(item);
-            world++;
+            _inventory.Remove(item);
+            worldCount++;
+            Debug.Log($"Dropped {item.ItemName}");
         }
-        else if (world > 0)
+        else if (worldCount > 0)
         {
-            inventory.Add(new InventoryItem(name));
-            world--;
+            _inventory.Add(new T());
+            worldCount--;
+            Debug.Log($"Picked up {typeof(T).Name}");
         }
 
-        Debug.Log($"World: G={guns} M={meds} K={keys} | Inventory: G={Count("Gun")} M={Count("Medipack")} K={Count("Keycard")}");
+        ShowStatus();
     }
 
-    int Count(string name)
+    private int Count<T>() where T : InventoryItem
     {
-        int c = 0;
-        foreach (var i in inventory)
-            if (i.name == name) c++;
-        return c;
+        int count = 0;
+
+        foreach (var item in _inventory)
+        {
+            if (item is T)
+                count++;
+        }
+
+        return count;
+    }
+
+    private void ShowStatus()
+    {
+        Debug.Log(
+            $"World: G={_guns} M={_medipacks} K={_keycards} | " +
+            $"Inventory: G={Count<GunItem>()} M={Count<MedipackItem>()} K={Count<KeycardItem>()}"
+        );
     }
 }
-*/

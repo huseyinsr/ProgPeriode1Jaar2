@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using TMPro;
 using System;
 
@@ -29,3 +29,4 @@ public class CoinUI : MonoBehaviour
         Coin.OnCoinDestroyed -= UpdateCoinUI;
     }
 }
+*/
