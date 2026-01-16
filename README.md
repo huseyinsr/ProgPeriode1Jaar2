@@ -289,6 +289,8 @@ Prog Jaar 2 Periode 2
 
 Les 1
 
+----------------------------------------------------------
+
 Les 2
 
 Voor deze opdracht heb ik een class diagram gemaakt van mijn Tower Defense game met mermaid.
@@ -297,6 +299,7 @@ Voor deze opdracht heb ik een class diagram gemaakt van mijn Tower Defense game 
 
 [Tower Defense Scripts](https://github.com/huseyinsr/TowerGameee/tree/master/Assets/Scripts)
 
+----------------------------------------------------------
 
 Les 3
 
@@ -320,7 +323,9 @@ public float[] stats; // health,damage,speed = struct
 Opdracht 3
 
 ![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
-o
+
+----------------------------------------------------------
+
 
 Les 4
 
