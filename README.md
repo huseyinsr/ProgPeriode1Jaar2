@@ -345,9 +345,7 @@ Opdracht 3
 
 [Inventory.cs](Assets/Script/Inventory.cs)
 
-
 ----------------------------------------------------------
-
 
 Les 4
 
@@ -360,6 +358,8 @@ Opdracht 4
 [Coin.cs](Assets/Script/Coin.cs)
 
 Ik heb een static action gemaakt die wordt geactiveerd bij OnTriggerEnter. Door deze action event kan de CoinUI functioneren.
+
+----------------------------------------------------------
 
 Les 5 
 
@@ -377,6 +377,8 @@ Les 5
 
 CoinPickup, HealthPickup en DamageTrap scripts staat onder Collectable.cs. De basis van pickupItems is dus Collectable.cs. In Collectable.cs heb ik ook een action event toegevoegd.
 
+----------------------------------------------------------
+
 Les 6
 
 ![ezgif-69cdd156470da4e9](https://github.com/user-attachments/assets/cbe50bfb-496c-4135-ac89-c7a310599082)
@@ -386,6 +388,8 @@ Ik heb de zelfde scripten gebruikt die in de opdracht staan. Ik heb aleen de [Va
 [BattleManager.cs](Assets/Script/BattleManager.cs) met een extra vampire regel.
 
 De vampire heeft een lifesteal ability. De damage van vampire is 20 en hij kan de helft van deze value als heealth terugkrijgen. Vampire heeft 300 hp in het begin, ik klik 4 keer op space en dan wordt hun health 340.
+
+----------------------------------------------------------
 
 Les 7
 
