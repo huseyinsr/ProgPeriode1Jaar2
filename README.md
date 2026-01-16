@@ -333,7 +333,7 @@ public float[] stats; // health,damage,speed = struct
 
 Opdracht 3
 
-![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
+![ezgif-63a6f5aa0965848f](https://github.com/user-attachments/assets/4a298a77-d0fb-4d18-8fe6-5b348e151774)
 
 [ItemStats.cs](Assets/Script/ItemStats.cs)
 
@@ -353,7 +353,7 @@ Les 4
 
 Opdracht 4
 
-![ahhtof](https://github.com/user-attachments/assets/cdcc8969-1fcd-40f6-925c-b54e7fed3fbc)
+![ezgif-6f3a980a32e0dd0e](https://github.com/user-attachments/assets/9c411136-949c-449e-b913-3ea92df51770)
 
 [CoinUI.cs](Assets/Script/CoinUI.cs)
 
@@ -361,7 +361,7 @@ Opdracht 4
 
 Les 5 
 
-![ahjfvg](https://github.com/user-attachments/assets/4ba6c137-d143-4753-8423-7987bf515cc7)
+![ezgif-62d307dcc2ff5c5b](https://github.com/user-attachments/assets/aff2693f-4f78-4a5e-86f4-96e7d91be5f5)
 
 [Collectable.cs](Assets/Script/Collectable.cs)
 
@@ -375,7 +375,7 @@ Les 5
 
 Les 6
 
-![ahjgre](https://github.com/user-attachments/assets/5a2503fe-f29c-40c4-862e-db25df2ecbd4)
+![ezgif-69cdd156470da4e9](https://github.com/user-attachments/assets/cbe50bfb-496c-4135-ac89-c7a310599082)
 
 Ik heb de zelfde scripten gebruikt die in de opdracht staan. Ik heb aleen de [Vampire.cs](Assets/Script/Vampire.cs) toegevoegd. 
  
