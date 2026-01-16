@@ -289,6 +289,10 @@ Prog Jaar 2 Periode 2
 
 Les 1
 
+![ahjetm](https://github.com/user-attachments/assets/b282cb02-45c0-490e-9c43-1251f970d56f)
+
+
+
 ----------------------------------------------------------
 
 Les 2
