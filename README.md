@@ -289,6 +289,10 @@ Prog Jaar 2 Periode 2
 
 Les 1
 
+![ahjetm](https://github.com/user-attachments/assets/b282cb02-45c0-490e-9c43-1251f970d56f)
+
+
+
 ----------------------------------------------------------
 
 Les 2
@@ -316,13 +320,26 @@ Management van actieve powerups = Class
 Oefening 2
 
 public class Enemy : MonoBehaviour =  class
+
 public int enemyType; // 0=melee,1=ranged = enum
+
 public float[] stats; // health,damage,speed = struct
 
 
 Opdracht 3
 
 ![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
+
+[ItemStats.cs](Assets/Script/ItemStats.cs)
+
+[Item.cs](Assets/Script/Item.cs)
+
+[ItemType.cs](Assets/Script/ItemType.cs)
+
+[ItemTemplate1.cs](Assets/Script/ItemTemplate1.cs)
+
+[Inventory.cs](Assets/Script/Inventory.cs)
+
 
 ----------------------------------------------------------
 
@@ -332,6 +349,10 @@ Les 4
 Opdracht 4
 
 ![ahhtof](https://github.com/user-attachments/assets/cdcc8969-1fcd-40f6-925c-b54e7fed3fbc)
+
+[CoinUI.cs](Assets/Script/CoinUI.cs)
+
+[Coin.cs](Assets/Script/Coin.cs)
 
 
 
