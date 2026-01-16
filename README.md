@@ -289,7 +289,8 @@ Prog Jaar 2 Periode 2
 
 Les 1
 
-![ahjetm](https://github.com/user-attachments/assets/b282cb02-45c0-490e-9c43-1251f970d56f)
+![ezgif-6000aafc466a38ca](https://github.com/user-attachments/assets/cdcba812-756b-460f-baaf-02580249adfe)
+
 
 [InventoryItem](Assets/Script/InventoryItem.cs)
 
