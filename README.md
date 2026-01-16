@@ -310,6 +310,25 @@ XYZ-coördinaten in een 3d omgeving. = Struct(Vector 3)
 
 Management van actieve powerups = Class
 
+Oefening 2
+
+public class Enemy : MonoBehaviour =  class
+public int enemyType; // 0=melee,1=ranged = enum
+public float[] stats; // health,damage,speed = struct
+
+
+Opdracht 3
+
+![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
+o
+
+Les 4
+
+Opdracht 4
+
+![ahhtof](https://github.com/user-attachments/assets/cdcc8969-1fcd-40f6-925c-b54e7fed3fbc)
+
+
 
 
 
