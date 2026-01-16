@@ -375,7 +375,7 @@ Les 5
 
 [DamageTrap.cs](Assets/Script/DamageTrap.cs)
 
-CoinPickup, HealthPickup en DamageTrap scripts staat onder Collectable.cs. De basis van pickupItems is dus Collectable.cs. In Collectable.cs heb ik ook een action event toegevoegd dat bijhoudt hoeveel items er nog in de scene aanwezig zijn.
+CoinPickup, HealthPickup en DamageTrap scripts staat onder Collectable.cs. De basis van pickupItems is dus Collectable.cs. In Collectable.cs heb ik ook een action event toegevoegd.
 
 Les 6
 
