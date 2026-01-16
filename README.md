@@ -291,7 +291,11 @@ Les 1
 
 ![ahjetm](https://github.com/user-attachments/assets/b282cb02-45c0-490e-9c43-1251f970d56f)
 
+[InventoryItem](Assets/Script/InventoryItem.cs)
 
+[InventorySystem](Assets/Script/InventorySystem.cs)
+
+Gun, Medipack en Keycard staat in Inventory Item.
 
 ----------------------------------------------------------
 
@@ -354,9 +358,31 @@ Opdracht 4
 
 [Coin.cs](Assets/Script/Coin.cs)
 
+Les 5 
 
+![ahjfvg](https://github.com/user-attachments/assets/4ba6c137-d143-4753-8423-7987bf515cc7)
 
+[Collectable.cs](Assets/Script/Collectable.cs)
 
+[CoinPickup.cs](Assets/Script/CoinPickup.cs)
+
+[CollectableManager.cs](Assets/Script/CollectableManager.cs)
+
+[HealthPickup.cs](Assets/Script/HealthPickup.cs)
+
+[DamageTrap.cs](Assets/Script/DamageTrap.cs)
+
+Les 6
+
+![ahjgre](https://github.com/user-attachments/assets/5a2503fe-f29c-40c4-862e-db25df2ecbd4)
+
+Ik heb de zelfde scripten gebruikt die in de opdracht staan. Ik heb aleen de [Vampire.cs](Assets/Script/Vampire.cs) toegevoegd. 
+ 
+[BattleManager.cs](Assets/Script/BattleManager.cs) met Vampire enemy.
+
+Les 7
+
+[IsPlayerReadyToAttack](Assets/Script/IsPlayerReadyToAttack.cs)
 
 
 
