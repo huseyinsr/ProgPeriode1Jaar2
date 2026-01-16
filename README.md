@@ -326,6 +326,17 @@ Opdracht 3
 
 ![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
 
+[ItemStats.cs](Assets/Script/ItemStats.cs)
+
+[Item.cs](Assets/Script/Item.cs)
+
+[ItemType.cs](Assets/Script/ItemType.cs)
+
+[ItemTemplate1.cs](Assets/Script/ItemTemplate1.cs)
+
+[Inventory.cs](Assets/Script/Inventory.cs)
+
+
 ----------------------------------------------------------
 
 
