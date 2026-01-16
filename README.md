@@ -316,13 +316,17 @@ Management van actieve powerups = Class
 Oefening 2
 
 public class Enemy : MonoBehaviour =  class
+
 public int enemyType; // 0=melee,1=ranged = enum
+
 public float[] stats; // health,damage,speed = struct
 
 
 Opdracht 3
 
 ![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
+
+[Coin.cs](Assets/Script/Coin.cs)
 
 ----------------------------------------------------------
 
