@@ -289,6 +289,8 @@ Prog Jaar 2 Periode 2
 
 Les 1
 
+----------------------------------------------------------
+
 Les 2
 
 Voor deze opdracht heb ik een class diagram gemaakt van mijn Tower Defense game met mermaid.
@@ -297,6 +299,7 @@ Voor deze opdracht heb ik een class diagram gemaakt van mijn Tower Defense game 
 
 [Tower Defense Scripts](https://github.com/huseyinsr/TowerGameee/tree/master/Assets/Scripts)
 
+----------------------------------------------------------
 
 Les 3
 
@@ -309,6 +312,27 @@ Enemy AI component voor het bepalen en uitvoeren van het gedrag. = Class
 XYZ-coördinaten in een 3d omgeving. = Struct(Vector 3)
 
 Management van actieve powerups = Class
+
+Oefening 2
+
+public class Enemy : MonoBehaviour =  class
+public int enemyType; // 0=melee,1=ranged = enum
+public float[] stats; // health,damage,speed = struct
+
+
+Opdracht 3
+
+![ahhtkp](https://github.com/user-attachments/assets/205462af-39a1-49fa-bbd8-3b5c2a94de7a)
+
+----------------------------------------------------------
+
+
+Les 4
+
+Opdracht 4
+
+![ahhtof](https://github.com/user-attachments/assets/cdcc8969-1fcd-40f6-925c-b54e7fed3fbc)
+
 
 
 
