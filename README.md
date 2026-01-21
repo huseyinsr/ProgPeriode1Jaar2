@@ -285,7 +285,7 @@ Ik heb 15 class in totaal maar ze zijn helemaal private.
 
 ----------------------------------------------------------
 
-Prog Jaar 2 Periode 2
+# Prog Jaar 2 Periode 2
 
 Les 1
 
